@@ -64,7 +64,7 @@
     </bean>
 
     <!--将自定义的实现类交给IoC容器进行初始化-->
-    <bean id="JedisClientCluster" class="com.qf.common.jedis.JedisClientCluster">
+    <bean id="JedisClientCluster" class="com.csm.common.jedis.JedisClientCluster">
         <property name="jedisCluster" ref="jedisCluster"/>
     </bean>
 

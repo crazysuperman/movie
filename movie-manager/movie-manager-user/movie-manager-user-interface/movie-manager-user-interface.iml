@@ -16,7 +16,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="movie-manager-user-dao" />
     <orderEntry type="module" module-name="movie-manager-user-pojo" />
     <orderEntry type="module" module-name="movie-common" />
     <orderEntry type="library" name="Maven: org.csource:fastdfs-client-java:1.27-SNAPSHOT" level="project" />

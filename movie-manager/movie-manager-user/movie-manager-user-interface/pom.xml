@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>com.csm</groupId>
-            <artifactId>movie-manager-user-dao</artifactId>
+            <artifactId>movie-manager-user-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

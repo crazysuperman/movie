@@ -14,11 +14,11 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd
 ">
     <!--扫描web层的注解类,以下注解是为了扫描这个注解：@Controller-->
-    <context:component-scan base-package="com.qf.manager.web"/>
+    <context:component-scan base-package="com.csm.manager.user.web"/>
     <!--@RequestMapping @ResponseBody jackson转换成JSON-->
     <mvc:annotation-driven/>
 
-
+     <!--跨域请求-->
     <mvc:cors>
         <mvc:mapping path="/**/**"
                      allowed-origins="*"
