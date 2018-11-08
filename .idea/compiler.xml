@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="movie-common" />
+        <module name="movie-manager-user-dao" />
+        <module name="movie-manager-user-interface" />
+        <module name="movie-manager-user-pojo" />
+        <module name="movie-manager-user-service" />
+        <module name="movie-manager-user-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="movie-common" target="1.8" />
+      <module name="movie-manager" target="1.8" />
+      <module name="movie-manager-user" target="1.8" />
+      <module name="movie-manager-user-dao" target="1.8" />
+      <module name="movie-manager-user-interface" target="1.8" />
+      <module name="movie-manager-user-pojo" target="1.8" />
+      <module name="movie-manager-user-service" target="1.8" />
+      <module name="movie-manager-user-web" target="1.8" />
+      <module name="movie-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

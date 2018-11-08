@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/movie-common/movie-common.iml" filepath="$PROJECT_DIR$/movie-common/movie-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-manager/movie-manager.iml" filepath="$PROJECT_DIR$/movie-manager/movie-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user.iml" filepath="$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-dao/movie-manager-user-dao.iml" filepath="$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-dao/movie-manager-user-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-interface/movie-manager-user-interface.iml" filepath="$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-interface/movie-manager-user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-pojo/movie-manager-user-pojo.iml" filepath="$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-pojo/movie-manager-user-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-service/movie-manager-user-service.iml" filepath="$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-service/movie-manager-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-web/movie-manager-user-web.iml" filepath="$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-web/movie-manager-user-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-parent/movie-parent.iml" filepath="$PROJECT_DIR$/movie-parent/movie-parent.iml" />
+    </modules>
+  </component>
+</project>

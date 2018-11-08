@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/movie-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-manager/movie-manager-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-parent" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
