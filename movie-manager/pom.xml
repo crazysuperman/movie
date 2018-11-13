@@ -15,6 +15,7 @@
     <modules>
         <module>movie-manager-user</module>
         <module>movie-manager-film</module>
+        <module>movie-manager-order</module>
     </modules>
 
     <dependencies>
