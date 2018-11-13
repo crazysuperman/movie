@@ -11,6 +11,12 @@
       <module fileurl="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-service/movie-manager-user-service.iml" filepath="$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-service/movie-manager-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-web/movie-manager-user-web.iml" filepath="$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-web/movie-manager-user-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-parent/movie-parent.iml" filepath="$PROJECT_DIR$/movie-parent/movie-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-portal/movie-portal.iml" filepath="$PROJECT_DIR$/movie-portal/movie-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-portal/movie-portal-dao/movie-portal-dao.iml" filepath="$PROJECT_DIR$/movie-portal/movie-portal-dao/movie-portal-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-portal/movie-portal-interface/movie-portal-interface.iml" filepath="$PROJECT_DIR$/movie-portal/movie-portal-interface/movie-portal-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-portal/movie-portal-pojo/movie-portal-pojo.iml" filepath="$PROJECT_DIR$/movie-portal/movie-portal-pojo/movie-portal-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-portal/movie-portal-service/movie-portal-service.iml" filepath="$PROJECT_DIR$/movie-portal/movie-portal-service/movie-portal-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-portal/movie-portal-web/movie-portal-web.iml" filepath="$PROJECT_DIR$/movie-portal/movie-portal-web/movie-portal-web.iml" />
     </modules>
   </component>
 </project>

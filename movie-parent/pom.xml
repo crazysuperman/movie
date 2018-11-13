@@ -14,6 +14,7 @@
     <modules>
         <module>../movie-common</module>
         <module>../movie-manager</module>
+        <module>../movie-portal</module>
     </modules>
 
     <!--依赖的版本统一控制-->

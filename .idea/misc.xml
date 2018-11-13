@@ -2,11 +2,13 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/movie-manager/movie-manager-user/movie-manager-user-web" />
+    <file type="web" url="file://$PROJECT_DIR$/movie-portal/movie-portal-web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/movie-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-portal/pom.xml" />
       </list>
     </option>
   </component>

@@ -12,6 +12,13 @@
         <module name="movie-manager-user-pojo" />
         <module name="movie-manager-user-service" />
         <module name="movie-manager-user-web" />
+        <module name="movie-partal-interface" />
+        <module name="movie-partal-service" />
+        <module name="movie-portal-dao" />
+        <module name="movie-portal-interface" />
+        <module name="movie-portal-pojo" />
+        <module name="movie-portal-service" />
+        <module name="movie-portal-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +31,14 @@
       <module name="movie-manager-user-service" target="1.8" />
       <module name="movie-manager-user-web" target="1.8" />
       <module name="movie-parent" target="1.8" />
+      <module name="movie-partal-interface" target="1.8" />
+      <module name="movie-partal-service" target="1.8" />
+      <module name="movie-portal" target="1.8" />
+      <module name="movie-portal-dao" target="1.8" />
+      <module name="movie-portal-interface" target="1.8" />
+      <module name="movie-portal-pojo" target="1.8" />
+      <module name="movie-portal-service" target="1.8" />
+      <module name="movie-portal-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
