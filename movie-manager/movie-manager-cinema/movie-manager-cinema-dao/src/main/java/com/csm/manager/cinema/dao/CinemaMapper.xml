@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    <mapper namespace="com.csm.manager.cinema.dao.CinemaMapper">
+
+    <!--查询影院信息-->
+        <select id="selectCinema" resultType="com.csm.manager.cinema.pojo.po.CinemaPO">
+            SELECT * FROM  tb_cinema
+            <include refid="search" />
+            limit #{offset},#{limit}
+        </select>
+
+        <sql id="search">
+            <where>
+                cname LIKE "%${search}%" AND  state in(0,1)
+            </where>
+
+        </sql>
+    <!--查询影院条数-->
+        <select id="selectCount" resultType="_long" >
+            SELECT  COUNT(cid) FROM  tb_cinema  <include refid="search" />
+        </select>
+
+    <!--删除影院-->
+       <delete id="deleteCinema" >
+            UPDATE  tb_cinema SET state=2 where cid=#{cid}
+        </delete>
+
+        <update id="updateCinema" parameterType="com.csm.manager.cinema.pojo.po.CinemaPO">
+            UPDATE  tb_cinema SET  cname=#{cname},address=#{address},uid=1,phone=#{phone},
+            photo=#{photo},state=0 where cid=#{cid}
+        </update>
+
+        <insert id="saveCinema" parameterType="com.csm.manager.cinema.pojo.po.CinemaPO">
+            INSERT  INTO tb_cinema (cname,address,uid,phone,photo,state)
+            VALUES (#{cname},#{address},#{uid},#{phone},#{photo},0)
+        </insert>
+
+    <!--批量删除-->
+        <update id="deleteALL">
+            update tb_cinema SET state=2 WHERE  cid IN
+            <foreach collection="array" item="arr" open="(" separator="," close=")">
+                #{arr}
+            </foreach>
+        </update>
+    </mapper>

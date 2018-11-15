@@ -3,28 +3,26 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>movie-parent</artifactId>
+        <artifactId>movie-manager-cinema</artifactId>
         <groupId>com.csm</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../movie-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
 
-    <artifactId>movie-manager</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>movie-manager-user</module>
-        <module>movie-manager-film</module>
-        <module>movie-manager-cinema</module>
-    </modules>
+    <artifactId>movie-manager-cinema-service</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.csm</groupId>
-            <artifactId>movie-common</artifactId>
+            <artifactId>movie-manager-cinema-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.csm</groupId>
+            <artifactId>movie-manager-cinema-dao</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 
 </project>
